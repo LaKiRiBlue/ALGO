@@ -1,0 +1,32 @@
+
+*{
+    padding: 0;
+    margin: -8;
+    box-sizing: border-box; 
+}
+
+@media only screen and (max-width: 768px) {
+
+    .v-card-container {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    .content {
+        padding-top: 0vh;
+    }
+}
+.left-block {
+  width: 70%;
+  
+}
+.middle-block img {
+  padding-top: 0px;
+}
+.b1 {
+  margin-bottom: 5px;
+}
+.content {
+	display: flex;
+	flex-wrap: wrap;
+}
+
